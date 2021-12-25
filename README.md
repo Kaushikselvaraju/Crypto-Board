@@ -2,7 +2,7 @@
 
 <br>
 
-> ### _Crypto Dashboard application built using ReactJs and NodeJs with RapidAPI 
+> ##Crypto Dashboard application built using ReactJs and NodeJs with RapidAPI 
 
 <br>
 
