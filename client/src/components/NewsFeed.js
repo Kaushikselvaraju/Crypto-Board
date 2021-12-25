@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react'
 import axios from 'axios'
 import { ScaleLoader } from 'load-animations-react'
+const baseUrl = "https://crypto0dash.herokuapp.com"
+
 
 const NewsFeed = () => {
     const [articles, setArticles] = useState(null)
@@ -9,7 +11,8 @@ const NewsFeed = () => {
 
         const options = {
             method: 'GET',
-            url: 'http://localhost:5000/news'
+            url: `${baseUrl}/news`,
+
         }
 
         axios.request(options).then((response) => {

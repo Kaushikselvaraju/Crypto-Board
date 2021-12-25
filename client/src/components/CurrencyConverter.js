@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import ExchangeRate from './ExchangeRate'
 import axios from 'axios'
+const baseUrl = "https://crypto0dash.herokuapp.com"
 
 const CurrencyConverter = () => {
     const currencies = ['BTC', 'ETH', 'USD', 'XRP', 'LTC', 'ADA']
@@ -20,7 +21,7 @@ const CurrencyConverter = () => {
 
         const options = {
             method: 'GET',
-            url: 'http://localhost:5000/convert',
+            url: `${baseUrl}/convert`,
             params: { from_currency: chosenPrimaryCurrency, function: 'CURRENCY_EXCHANGE_RATE', to_currency: chosenSecondaryCurrency }
         }
 
