@@ -15,7 +15,7 @@ const CurrencyConverter = () => {
     })
     const [result, setResult] = useState(0)
 
-    console.log(exchangedData)
+    //console.log(exchangedData)
 
     const convert = () => { // should say flex not dlex, comment this out for now
 
@@ -26,7 +26,7 @@ const CurrencyConverter = () => {
         }
 
         axios.request(options).then((response) => {
-            console.log(response.data)
+            //console.log(response.data)
             setResult(response.data * amount)
 
             setExchangedData({
