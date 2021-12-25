@@ -18,8 +18,6 @@ const CurrencyConverter = () => {
 
     const convert = () => { // should say flex not dlex, comment this out for now
 
-
-
         const options = {
             method: 'GET',
             url: 'http://localhost:5000/convert',
