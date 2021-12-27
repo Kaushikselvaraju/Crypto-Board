@@ -2,20 +2,19 @@
 
 <br>
 
-Crypto Dashboard application built using ReactJs and NodeJs with RapidAPI 
+> ## Crypto Dashboard application built using ReactJs and NodeJs with RapidAPI
 
-<br>
+ <br>
 
 ## Tech Stack and Dependencies
 
 <br>
 
-| <div align ="center">Name </div>             | <div align = "center">Description</div>   |
-| -------------------------------------------- | ----------------------------------------- |
-| **[ReactJs](https://reactjs.org)**           | Front End                                 |
-| **[Tailwind CSS](https://tailwindcss.com/)** | CSS Framework                             |
-| **[NodeJs](https://nodejs.org/)**            | BackEnd                                   |
-
+| <div align ="center">Name </div>                                            | <div align = "center">Description</div> |
+| --------------------------------------------------------------------------- | --------------------------------------- |
+| **[ReactJs](https://reactjs.org)**                                          | Front End                               |
+| **[Tailwind CSS](https://rapidapi.com/DIlyanBarbov/api/crypto-news-live/)** | CSS Framework                           |
+| **[NodeJs](https://nodejs.org/)**                                           | BackEnd                                 |
 
 <br>
 

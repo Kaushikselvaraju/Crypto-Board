@@ -1,7 +1,8 @@
 import { useEffect, useState } from 'react'
 import axios from 'axios'
-import { RippleLoader } from 'load-animations-react'
+import { ScaleLoader } from 'load-animations-react'
 const baseUrl = "https://crypto0dash.herokuapp.com"
+// const baseUrl = "http://localhost:5000"
 
 
 const NewsFeed = () => {
@@ -44,7 +45,7 @@ const NewsFeed = () => {
                         height: "50%",
                         width: "300px",
                     }}>
-                        <RippleLoader/>
+                        <ScaleLoader />
                     </div>
                 )
             }
