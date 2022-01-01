@@ -8,6 +8,7 @@
 > ## Crypto Dashboard application built using ReactJs and NodeJs with RapidAPI
 
  <br>
+</div>
 
 ## Tech Stack and Dependencies
 
