@@ -1,7 +1,7 @@
 # [Crypto-Board](https://crypto-dash-board.netlify.app)
 
 <br>
-
+<br>
 <div align="center">
 <br>
 
